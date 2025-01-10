@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+   h1{
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+   }
+   
+   body{
+    text-align: center;
+   }
+table{
+   margin: 0 auto;
+   border-spacing: 10px;
+}
+table button{
+    color:black;
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    cursor:pointer;
+    box-shadow: 0 8px 10px rgba(10,10,10,5.5);
+    padding: 10px;
+    background-color: wheat;
+
+}
+
+#result{
+    height: 50px;
+}
+table button:hover{
+    background-color: aqua;
+}
+button{
+    color: brown;
+
+}
+
+}
+</style>
+<body>
+  <h1>CALCULATOR</h1>
+  
+  <input id="result" type="text" readonly size="50px">
+  <div>
+  <table>
+    <tr>
+<td><button onclick="append(9)" id="button">9</button></td>
+<td><button onclick="append(8)" id="button">8</button></td>
+<td><button onclick="append(7)" id="button">7</button></td>
+<td><button onclick="setoperator('+')">+</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="append(6)">6</button></td>
+        <td><button onclick="append(5)">5</button></td>
+        <td><button onclick="append(4)">4</button></td>
+        <td><button onclick="setoperator('-')">-</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="append(3)">3</button></td>
+        <td><button onclick="append(2)">2</button></td>
+        <td><button onclick="append(1)">1</button></td>
+        <td><button onclick="setoperator('*')">*</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="append(0)">0</button></td>
+        <td><button onclick="reset()">c</button></td>
+        <td><button onclick="showresult()">=</button></td>
+        <td><button onclick="setoperator('/')">/</button></td>
+    </tr>
+  </table>  
+
+
+</div><br><br>
+<button1>Click Me</button1>
+
+<script src="index.js">
+       //console.log(56+67);<p id="demo">This is my page</p><button onclick="sum()"></button>
+    //function print(){
+    //document.getElementById('demo').innerHTML='hello to js';
+   // window.alert(56+67);
+
+   // }
+   // function change(){
+       // document.getElementById('demo-1').style.ba  >ckgroundColor='red';
+    //}
+
+  
+</script>
+
+</body>
+</html>
+
+
